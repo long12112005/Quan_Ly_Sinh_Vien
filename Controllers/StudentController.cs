@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Quan_Ly_Sinh_Vien.Data;
 using Quan_Ly_Sinh_Vien.Models;
-using Quan_Ly_Sinh_Vien.Dtos;
+using Quan_Ly_Sinh_Vien.DTOs;
 using AutoMapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
 using System;
+using Quan_ly_sinh_vien.Data;
+using StudentClassApi.Dtos;
 
 namespace Quan_Ly_Sinh_Vien.Controllers
 {

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Quan_ly_sinh_vien.Models;
+using Quan_Ly_Sinh_Vien.Models;
 using System;
 
 
