@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace StudentClassApi.Models
+namespace Quan_Ly_Sinh_Vien.Models
 {
     public class Class
     {
