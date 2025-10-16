@@ -2,7 +2,7 @@ using AutoMapper;
 using StudentClassApi.Models;
 using StudentClassApi.Dtos;
 
-namespace StudentClassApi.Profiles
+namespace Quan_Ly_Sinh_Vien.Profiles
 {
     public class MappingProfile : Profile
     {
