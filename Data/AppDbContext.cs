@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using StudentClassApi.Models;
+using Quan_ly_sinh_vien.Models;
 using System;
 
 
-namespace StudentClassApi.Data
+namespace Quan_ly_sinh_vien.Data
 {
     public class AppDbContext : DbContext
     {
