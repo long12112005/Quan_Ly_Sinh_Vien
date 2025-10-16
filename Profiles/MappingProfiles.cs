@@ -1,6 +1,6 @@
 using AutoMapper;
 using Quan_Ly_Sinh_Vien.Models;
-using Quan_Ly_Sinh_Vien.Dtos;
+using Quan_Ly_Sinh_Vien.DTOs;
 
 namespace Quan_Ly_Sinh_Vien.Profiles
 {
