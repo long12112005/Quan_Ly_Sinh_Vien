@@ -1,8 +1,9 @@
 using AutoMapper;
-using StudentClassApi.Models;
+using Quan_Ly_Sinh_Vien.Models;
+using Quan_Ly_Sinh_Vien.DTOs;
 using StudentClassApi.Dtos;
 
-namespace StudentClassApi.Profiles
+namespace Quan_Ly_Sinh_Vien.Profiles
 {
     public class MappingProfile : Profile
     {
