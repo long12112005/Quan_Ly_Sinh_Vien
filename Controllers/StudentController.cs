@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using System;
 using Quan_ly_sinh_vien.Data;
+using StudentClassApi.Dtos;
 
 
 namespace Quan_Ly_Sinh_Vien.Controllers
