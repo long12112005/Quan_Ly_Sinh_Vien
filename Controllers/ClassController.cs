@@ -1,15 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using StudentClassApi.Data;
-using StudentClassApi.Models;
-using StudentClassApi.Dtos;
+using Quan_Ly_Sinh_Vien.Data;
+using Quan_Ly_Sinh_Vien.Models;
+using Quan_Ly_Sinh_Vien.Dtos;
 using AutoMapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
 
 
-namespace StudentClassApi.Controllers
+namespace Quan_Ly_Sinh_Vien.Controllers
 {
     [ApiController]
     [Route("api/classes")]
