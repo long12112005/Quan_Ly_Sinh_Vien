@@ -8,13 +8,16 @@ namespace Quan_Ly_Sinh_Vien.Profiles
     {
         public MappingProfile()
         {
+            // --------- Class Mapping ----------
             CreateMap<Class, ClassDto>();
             CreateMap<CreateClassDto, Class>();
+
+            // --------- Student Mapping ----------
+            CreateMap<CreateStudentDto, Student>();
+            CreateMap<UpdateStudentDto, Student>();
+
             CreateMap<Student, StudentDto>()
                 .ForMember(dest => dest.ClassName, opt => opt.MapFrom(src => src.Class.Name));
-            CreateMap<CreateStudentDto, Student>();
-            CreateMap<UpdateStudentDto, Student>()
-                .ForMember(dest => dest.ClassId, opt => opt.Ignore());
         }
     }
 }

@@ -1,6 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-namespace StudentClassApi.Dtos
+namespace Quan_Ly_Sinh_Vien.DTOs
 {
     public class CreateStudentDto
     {
