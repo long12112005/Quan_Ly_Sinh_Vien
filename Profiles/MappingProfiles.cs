@@ -1,6 +1,7 @@
 using AutoMapper;
 using Quan_Ly_Sinh_Vien.Models;
 using Quan_Ly_Sinh_Vien.DTOs;
+using Quan_Ly_Sinh_Vien.DTOs;
 using StudentClassApi.Dtos;
 
 namespace Quan_Ly_Sinh_Vien.Profiles
