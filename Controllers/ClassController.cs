@@ -7,7 +7,7 @@ using AutoMapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
-using StudentClassApi.Dtos;
+using Quan_Ly_Sinh_Vien.Dtos;
 
 
 namespace Quan_Ly_Sinh_Vien.Controllers
